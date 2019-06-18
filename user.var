@@ -1,0 +1,22 @@
+### Variable for backups ###
+## main variable ##
+BACKUP_DIR='/backup'
+LOG_DIR="BACKUP_DIR/logs"
+## send_mail ##
+MAIL_LIST=""
+## dump_files ##
+FILE_LIST="name0:dir0 name1:dir1"
+## dump mysql ##
+MYSQL_USER='root'
+MYSQL_PASS='password'
+MYSQL_HOST='localhost'
+MYSQL_PORT='3306'
+MYSQL_DB_LIST="db_name0 db_name1"
+## dump psql ##
+PG_HOST='localhost
+PG_USER='postgres'
+PG_DB_LIST="dbname0 dbname1"
+## delete_old
+LIFE_DAY='5'
+LIFE_MOUNTH='31'
+DAY_MOUNTH='01'
